@@ -1,0 +1,59 @@
+*{
+    margin:0;
+}
+body{
+   background:linear-gradient(90deg,grey,white,grey);
+   
+}
+#top{
+    padding:60px;
+}
+#Todo{
+    text-align: center;
+}
+#tasks{
+    text-align: center;
+}
+#Todo input{
+    padding:10px;
+    width:400px;
+    border-radius:15px;
+}
+#Todo button{
+   padding:10px;
+   width:120px;
+   border-radius:20px;
+   background-color: brown;
+   color: white;
+}
+
+#Todo button:hover{
+    background-color: rgb(189, 131, 131);
+    transition:1s;
+    color:black;
+}
+#tasks{
+    padding:20px;
+
+}
+    
+hr{
+    border-radius:100%;
+    background-color: brown;
+    width:80%;
+    margin-left:10%;
+    height:5px;
+    border-color: black;
+ 
+    
+}
+.tasks .delete i{
+    font-size:15px;
+    color: brown;
+}
+#taskname{
+    font-size:20px;
+}
+.tasks #taskname i{
+    color: brown;
+}
